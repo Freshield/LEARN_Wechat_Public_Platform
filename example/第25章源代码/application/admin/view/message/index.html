@@ -1,0 +1,38 @@
+
+	  <form id="myform" action="{:Url('message/send')}" method="post">
+      	<table cellpadding=0 cellspacing=0 class="table_form" width="100%">
+            <tr>
+				<td>覆盖人数</td>
+				<td><font color="blue">{$total}</font></td>
+			</tr>
+            <tr>
+				<td>消息类型</td>
+				<td><input type="text" class="input-text"  name="type" value="{$message.type}" size="50"></td>
+			</tr>
+			<tr>
+				<td>图文标题</td>
+				<td><input type="text" class="input-text"  name="title" value="{$message.title}" size="50"></td>
+			</tr>
+			<tr>
+				<td>图文详情</td>
+				<td><textarea id="first" name="description" rows="3" cols="60" size="50">{$message.description}</textarea></td>
+			</tr>
+			<tr>
+				<td>图片地址</td>
+				<td><input type="text" class="input-text"  name="picurl" value="{$message.picurl}" size="50"></td>
+			</tr>
+			<tr>
+				<td>跳转地址</td>
+				<td><input type="text" class="input-text"  name="url" value="{$message.url}" size="50"></td>
+			</tr>
+            <tr>
+				<td><font color="red"><strong>*注意：</strong></font></td>
+				<td><font color="red">务必确认信息正确一致，点击发送后将马上启动发送程序并且无法撤销。</font></td>
+			</tr>
+		</table>
+
+		<div class="btn">
+			<input type="hidden" name="id" value="{$message['id']}" />
+			<INPUT TYPE="submit"  value="发送" class="button" >
+		</div>
+      </form>

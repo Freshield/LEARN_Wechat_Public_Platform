@@ -1,0 +1,135 @@
+//代码由书稿中复制过来，运行的话需要另存为单个文件。看不懂的读者请先了解一下php语法。
+
+<?php
+$access_token = "-4fPq655nSH7ruHqEIIAxVyDpbRZFL4yPudfMuVhcin5PorYwWiTL7RZNuNlsSw_z_MDK5HCd4IKP0VpPBSLID41kWMOKvT1OBXvgt2UjeG1hZhdBuTF9DpG0XcMAG35ZAVjAIALMH";
+
+$data = '{"tag":{"id":103,"name":"会员"}}';
+$url = "https://api.weixin.qq.com/cgi-bin/tags/update?access_token=$access_token";
+$result = https_request($url, $data);
+var_dump($result);
+
+function https_request($url, $data = null)
+{
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, $url);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, FALSE);
+    if (!empty($data)){
+        curl_setopt($curl, CURLOPT_POST, 1);
+        curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
+    }
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+    $output = curl_exec($curl);
+    curl_close($curl);
+    return $output;
+}
+
+?>
+
+
+<?php
+$access_token = "-4fPq655nSH7ruHqEIIAxVyDpbRZFL4yPudfMuVhcin5PorYwWiTL7RZNuNlsSw_z_MDK5HCd4IKP0VpPBSLID41kWMOKvT1OBXvgt2UjeG1hZhdBuTF9DpG0XcMAG35ZAVjAIALMH";
+
+$data = '{"openid":"oiPuduGV7gJ_MOSfAWpVmhhgXh-U"}';
+$url = "https://api.weixin.qq.com/cgi-bin/tags/getidlist?access_token=$access_token";
+$result = https_request($url, $data);
+var_dump($result);
+
+function https_request($url, $data = null)
+{
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, $url);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, FALSE);
+    if (!empty($data)){
+        curl_setopt($curl, CURLOPT_POST, 1);
+        curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
+    }
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+    $output = curl_exec($curl);
+    curl_close($curl);
+    return $output;
+}
+
+?>
+<?php
+
+$access_token = "-4fPq655nSH7ruHqEIIAxVyDpbRZFL4yPudfMuVhcin5PorYwWiTL7RZNuNlsSw_z_MDK5HCd4IKP0VpPBSLID41kWMOKvT1OBXvgt2UjeG1hZhdBuTF9DpG0XcMAG35ZAVjAIALMH";
+
+$url = "https://api.weixin.qq.com/cgi-bin/tags/get?access_token=$access_token";
+$result = https_request($url);
+var_dump($result);
+function https_request($url, $data = null)
+{
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, $url);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, FALSE);
+    if (!empty($data)){
+        curl_setopt($curl, CURLOPT_POST, 1);
+        curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
+    }
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+    $output = curl_exec($curl);
+    curl_close($curl);
+    return $output;
+}
+?>
+
+
+<?php
+$access_token = "-4fPq655nSH7ruHqEIIAxVyDpbRZFL4yPudfMuVhcin5PorYwWiTL7RZNuNlsSw_z_MDK5HCd4IKP0VpPBSLID41kWMOKvT1OBXvgt2UjeG1hZhdBuTF9DpG0XcMAG35ZAVjAIALMH";
+
+$data = '{
+  "tag" : {
+    "name" : "深圳"
+  }
+}';
+$url = "https://api.weixin.qq.com/cgi-bin/tags/create?access_token=$access_token";
+$result = https_request($url, $data);
+$jsoninfo = json_decode($result, true);
+var_dump($result);
+
+function https_request($url, $data = null)
+{
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, $url);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, FALSE);
+    if (!empty($data)){
+        curl_setopt($curl, CURLOPT_POST, 1);
+        curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
+    }
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+    $output = curl_exec($curl);
+    curl_close($curl);
+    return $output;
+}
+?>
+
+
+
+<?php
+$access_token = "QfUKtidNK0z-WA9C38JIncULipiunLfKpic1rmcnPOCs4UuZ7ek7PvjM5mLXnkJH7d5u2vX2q7UY9wurrJRjFrnIi4O6BkDwSmfE3wv1-ToSrEXGzwOpzgc8SSw74tNHDAUbACAWTN";
+
+$openid = "oiPuduGV7gJ_MOSfAWpVmhhgXh-U";
+$url = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=$access_token&openid=$openid&lang=zh_CN";
+$output = https_request($url);
+var_dump($output);
+
+function https_request($url, $data = null)
+{
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, $url);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, FALSE);
+    if (!empty($data)){
+        curl_setopt($curl, CURLOPT_POST, 1);
+        curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
+    }
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+    $output = curl_exec($curl);
+    curl_close($curl);
+    return $output;
+}
+?>

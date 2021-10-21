@@ -1,0 +1,351 @@
+
+2016-07-09 23:54:37 R 
+<xml>
+	<ToUserName><![CDATA[gh_36dd0f0b3132]]></ToUserName>
+	<FromUserName><![CDATA[oQW8FuN_DFnKZwBaUKQ1RJD2Tr9M]]></FromUserName>
+	<CreateTime>1468050882</CreateTime>
+	<MsgType><![CDATA[event]]></MsgType>
+	<Event><![CDATA[CLICK]]></Event>
+	<EventKey><![CDATA[TEXT]]></EventKey>
+</xml>
+2016-07-09 23:54:37 T 
+<xml>
+    <ToUserName><![CDATA[oQW8FuN_DFnKZwBaUKQ1RJD2Tr9M]]></ToUserName>
+    <FromUserName><![CDATA[gh_36dd0f0b3132]]></FromUserName>
+    <CreateTime>1468079677</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[微笑：/::)
+乒乓：/:oo
+中国：🇨🇳
+仙人掌：🌵]]></Content>
+</xml>
+2016-07-09 23:55:30 R 
+<xml>
+	<ToUserName><![CDATA[gh_36dd0f0b3132]]></ToUserName>
+	<FromUserName><![CDATA[oQW8FuN_DFnKZwBaUKQ1RJD2Tr9M]]></FromUserName>
+	<CreateTime>1468050934</CreateTime>
+	<MsgType><![CDATA[event]]></MsgType>
+	<Event><![CDATA[VIEW]]></Event>
+	<EventKey><![CDATA[http://xw.qq.com/]]></EventKey>
+	<MenuId>410418124</MenuId>
+</xml>
+2016-07-09 23:55:30 T 
+<xml>
+    <ToUserName><![CDATA[oQW8FuN_DFnKZwBaUKQ1RJD2Tr9M]]></ToUserName>
+    <FromUserName><![CDATA[gh_36dd0f0b3132]]></FromUserName>
+    <CreateTime>1468079730</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[跳转链接 http://xw.qq.com/]]></Content>
+</xml>
+2016-07-09 23:57:58 R 
+<xml>
+	<ToUserName><![CDATA[gh_36dd0f0b3132]]></ToUserName>
+	<FromUserName><![CDATA[oQW8FuN_DFnKZwBaUKQ1RJD2Tr9M]]></FromUserName>
+	<CreateTime>1468051082</CreateTime>
+	<MsgType><![CDATA[event]]></MsgType>
+	<Event><![CDATA[scancode_push]]></Event>
+	<EventKey><![CDATA[rselfmenu_2_2]]></EventKey>
+	<ScanCodeInfo>
+		<ScanType><![CDATA[qrcode]]></ScanType>
+		<ScanResult><![CDATA[http://weixin.qq.com/r/l0Ozq9-EbYISrZvI9xaF]]></ScanResult>
+	</ScanCodeInfo>
+</xml>
+2016-07-09 23:57:58 T 
+<xml>
+    <ToUserName><![CDATA[oQW8FuN_DFnKZwBaUKQ1RJD2Tr9M]]></ToUserName>
+    <FromUserName><![CDATA[gh_36dd0f0b3132]]></FromUserName>
+    <CreateTime>1468079878</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[扫码推事件]]></Content>
+</xml>
+2016-07-09 23:58:27 R 
+<xml>
+	<ToUserName><![CDATA[gh_36dd0f0b3132]]></ToUserName>
+	<FromUserName><![CDATA[oQW8FuN_DFnKZwBaUKQ1RJD2Tr9M]]></FromUserName>
+	<CreateTime>1468051112</CreateTime>
+	<MsgType><![CDATA[event]]></MsgType>
+	<Event><![CDATA[scancode_waitmsg]]></Event>
+	<EventKey><![CDATA[rselfmenu_2_1]]></EventKey>
+	<ScanCodeInfo>
+		<ScanType><![CDATA[qrcode]]></ScanType>
+		<ScanResult><![CDATA[http://weixin.qq.com/r/l0Ozq9-EbYISrZvI9xaF]]></ScanResult>
+	</ScanCodeInfo>
+</xml>
+2016-07-09 23:58:27 T 
+<xml>
+    <ToUserName><![CDATA[oQW8FuN_DFnKZwBaUKQ1RJD2Tr9M]]></ToUserName>
+    <FromUserName><![CDATA[gh_36dd0f0b3132]]></FromUserName>
+    <CreateTime>1468079907</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[扫码带提示：类型 二维码 结果：http://weixin.qq.com/r/l0Ozq9-EbYISrZvI9xaF]]></Content>
+</xml>
+2016-07-10 00:01:43 R 
+<xml>
+	<ToUserName><![CDATA[gh_36dd0f0b3132]]></ToUserName>
+	<FromUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></FromUserName>
+	<CreateTime>1468051307</CreateTime>
+	<MsgType><![CDATA[event]]></MsgType>
+	<Event><![CDATA[pic_sysphoto]]></Event>
+	<EventKey><![CDATA[rselfmenu_2_3]]></EventKey>
+	<SendPicsInfo>
+		<Count>1</Count>
+		<PicList>
+			<item>
+				<PicMd5Sum><![CDATA[4cc7f5ab2c499b01655e99a868ef3519]]></PicMd5Sum>
+			</item>
+		</PicList>
+	</SendPicsInfo>
+</xml>
+2016-07-10 00:01:43 T 
+<xml>
+    <ToUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></ToUserName>
+    <FromUserName><![CDATA[gh_36dd0f0b3132]]></FromUserName>
+    <CreateTime>1468080103</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[系统拍照]]></Content>
+</xml>
+2016-07-10 00:01:43 R 
+<xml>
+<ToUserName><![CDATA[gh_36dd0f0b3132]]></ToUserName>
+<FromUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></FromUserName>
+<CreateTime>1468051307</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz/L4qjYtOibummvQWEQA7bHLvOy4o8D0pmu0mIybCfDFrqaLdicSpzwmhXibyAKSApmp6zxkyeSCyKkOTZFVnf8sZjg/0]]></PicUrl>
+<MsgId>6305232352825474232</MsgId>
+<MediaId><![CDATA[oabdvHfBN-d6jD0VvPGh6VYCwC8Y9lQjAwbNKm6B7DeRDOIghYV2_fKwT-ty9-c4]]></MediaId>
+</xml>
+2016-07-10 00:01:43 T 
+<xml>
+    <ToUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></ToUserName>
+    <FromUserName><![CDATA[gh_36dd0f0b3132]]></FromUserName>
+    <CreateTime>1468080103</CreateTime>
+    <MsgType><![CDATA[image]]></MsgType>
+    <Image>
+        <MediaId><![CDATA[oabdvHfBN-d6jD0VvPGh6VYCwC8Y9lQjAwbNKm6B7DeRDOIghYV2_fKwT-ty9-c4]]></MediaId>
+    </Image>
+</xml>
+2016-07-10 00:05:24 R 
+<xml>
+	<ToUserName><![CDATA[gh_36dd0f0b3132]]></ToUserName>
+	<FromUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></FromUserName>
+	<CreateTime>1468051528</CreateTime>
+	<MsgType><![CDATA[event]]></MsgType>
+	<Event><![CDATA[pic_photo_or_album]]></Event>
+	<EventKey><![CDATA[rselfmenu_2_4]]></EventKey>
+	<SendPicsInfo>
+		<Count>2</Count>
+		<PicList>
+			<item>
+				<PicMd5Sum><![CDATA[b5c23feac0987db7ddda1b0a3addba9d]]></PicMd5Sum>
+			</item>
+			<item>
+				<PicMd5Sum><![CDATA[59c3eb7e2124a75986295b8842573951]]></PicMd5Sum>
+			</item>
+		</PicList>
+	</SendPicsInfo>
+</xml>
+2016-07-10 00:05:24 T 
+<xml>
+    <ToUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></ToUserName>
+    <FromUserName><![CDATA[gh_36dd0f0b3132]]></FromUserName>
+    <CreateTime>1468080324</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[拍照或者相册：数量 2]]></Content>
+</xml>
+2016-07-10 00:05:24 R 
+<xml>
+<ToUserName><![CDATA[gh_36dd0f0b3132]]></ToUserName>
+<FromUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></FromUserName>
+<CreateTime>1468051528</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz/L4qjYtOibummvQWEQA7bHLvOy4o8D0pmutQV8sjORu8b8dMaAecib6pSV78WNiavkRpdRLTu3fJ10IP3Z3rQf4jaw/0]]></PicUrl>
+<MsgId>6305233302013246692</MsgId>
+<MediaId><![CDATA[Qp6Nm-qIiZoNFuqBq2rLQVUI18QZFjqoyF_RMwSnq283nNkCw_Din_NIa20XniIL]]></MediaId>
+</xml>
+2016-07-10 00:05:24 T 
+<xml>
+    <ToUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></ToUserName>
+    <FromUserName><![CDATA[gh_36dd0f0b3132]]></FromUserName>
+    <CreateTime>1468080324</CreateTime>
+    <MsgType><![CDATA[image]]></MsgType>
+    <Image>
+        <MediaId><![CDATA[Qp6Nm-qIiZoNFuqBq2rLQVUI18QZFjqoyF_RMwSnq283nNkCw_Din_NIa20XniIL]]></MediaId>
+    </Image>
+</xml>
+2016-07-10 00:05:25 R 
+<xml>
+<ToUserName><![CDATA[gh_36dd0f0b3132]]></ToUserName>
+<FromUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></FromUserName>
+<CreateTime>1468051529</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz/L4qjYtOibummvQWEQA7bHLvOy4o8D0pmuHbt6FlGypwY261cCF9d3jLsrhNI2zicl7qbdCnia3gr7hWXdXicKZKibFQ/0]]></PicUrl>
+<MsgId>6305233306308213989</MsgId>
+<MediaId><![CDATA[7UPKJqLHGwFbJnSdZxTWVgUFoOWDm1wS_yKPuT9vfzWFbb75GuO8YLxGidPJx6xl]]></MediaId>
+</xml>
+2016-07-10 00:05:25 T 
+<xml>
+    <ToUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></ToUserName>
+    <FromUserName><![CDATA[gh_36dd0f0b3132]]></FromUserName>
+    <CreateTime>1468080325</CreateTime>
+    <MsgType><![CDATA[image]]></MsgType>
+    <Image>
+        <MediaId><![CDATA[7UPKJqLHGwFbJnSdZxTWVgUFoOWDm1wS_yKPuT9vfzWFbb75GuO8YLxGidPJx6xl]]></MediaId>
+    </Image>
+</xml>
+2016-07-10 00:06:28 R 
+<xml>
+	<ToUserName><![CDATA[gh_36dd0f0b3132]]></ToUserName>
+	<FromUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></FromUserName>
+	<CreateTime>1468051592</CreateTime>
+	<MsgType><![CDATA[event]]></MsgType>
+	<Event><![CDATA[pic_weixin]]></Event>
+	<EventKey><![CDATA[rselfmenu_2_5]]></EventKey>
+	<SendPicsInfo>
+		<Count>3</Count>
+		<PicList>
+			<item>
+				<PicMd5Sum><![CDATA[59c3eb7e2124a75986295b8842573951]]></PicMd5Sum>
+			</item>
+			<item>
+				<PicMd5Sum><![CDATA[b5c23feac0987db7ddda1b0a3addba9d]]></PicMd5Sum>
+			</item>
+			<item>
+				<PicMd5Sum><![CDATA[4cc7f5ab2c499b01655e99a868ef3519]]></PicMd5Sum>
+			</item>
+		</PicList>
+	</SendPicsInfo>
+</xml>
+2016-07-10 00:06:28 T 
+<xml>
+    <ToUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></ToUserName>
+    <FromUserName><![CDATA[gh_36dd0f0b3132]]></FromUserName>
+    <CreateTime>1468080388</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[相册发图：数量 3]]></Content>
+</xml>
+2016-07-10 00:06:28 R 
+<xml>
+<ToUserName><![CDATA[gh_36dd0f0b3132]]></ToUserName>
+<FromUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></FromUserName>
+<CreateTime>1468051592</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz/L4qjYtOibummvQWEQA7bHLvOy4o8D0pmuHbt6FlGypwY261cCF9d3jLsrhNI2zicl7qbdCnia3gr7hWXdXicKZKibFQ/0]]></PicUrl>
+<MsgId>6305233576891153665</MsgId>
+<MediaId><![CDATA[UXEYIrEG5X8ESntwCnkT4ld05Ck5BWFO_6un8ewW907VbmlpDk4UdYvlUTxdjHjG]]></MediaId>
+</xml>
+2016-07-10 00:06:28 T 
+<xml>
+    <ToUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></ToUserName>
+    <FromUserName><![CDATA[gh_36dd0f0b3132]]></FromUserName>
+    <CreateTime>1468080388</CreateTime>
+    <MsgType><![CDATA[image]]></MsgType>
+    <Image>
+        <MediaId><![CDATA[UXEYIrEG5X8ESntwCnkT4ld05Ck5BWFO_6un8ewW907VbmlpDk4UdYvlUTxdjHjG]]></MediaId>
+    </Image>
+</xml>
+2016-07-10 00:06:29 R 
+<xml>
+<ToUserName><![CDATA[gh_36dd0f0b3132]]></ToUserName>
+<FromUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></FromUserName>
+<CreateTime>1468051593</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz/L4qjYtOibummvQWEQA7bHLvOy4o8D0pmutQV8sjORu8b8dMaAecib6pSV78WNiavkRpdRLTu3fJ10IP3Z3rQf4jaw/0]]></PicUrl>
+<MsgId>6305233581186120962</MsgId>
+<MediaId><![CDATA[sD5BHwol_x4ey8JLWiSAhjimo12-k9lIlVvcG0Dw083DcB03J2rmrBg4pzNDW2_P]]></MediaId>
+</xml>
+2016-07-10 00:06:29 T 
+<xml>
+    <ToUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></ToUserName>
+    <FromUserName><![CDATA[gh_36dd0f0b3132]]></FromUserName>
+    <CreateTime>1468080389</CreateTime>
+    <MsgType><![CDATA[image]]></MsgType>
+    <Image>
+        <MediaId><![CDATA[sD5BHwol_x4ey8JLWiSAhjimo12-k9lIlVvcG0Dw083DcB03J2rmrBg4pzNDW2_P]]></MediaId>
+    </Image>
+</xml>
+2016-07-10 00:06:29 R 
+<xml>
+<ToUserName><![CDATA[gh_36dd0f0b3132]]></ToUserName>
+<FromUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></FromUserName>
+<CreateTime>1468051593</CreateTime>
+<MsgType><![CDATA[image]]></MsgType>
+<PicUrl><![CDATA[http://mmbiz.qpic.cn/mmbiz/L4qjYtOibummvQWEQA7bHLvOy4o8D0pmu0mIybCfDFrqaLdicSpzwmhXibyAKSApmp6zxkyeSCyKkOTZFVnf8sZjg/0]]></PicUrl>
+<MsgId>6305233581186120964</MsgId>
+<MediaId><![CDATA[20ou9TV50PdUJJq3082TrnDHZazec67uj3v7YW8W5-lKCrwYBb4w_XFYTXTfrBNb]]></MediaId>
+</xml>
+2016-07-10 00:06:29 T 
+<xml>
+    <ToUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></ToUserName>
+    <FromUserName><![CDATA[gh_36dd0f0b3132]]></FromUserName>
+    <CreateTime>1468080389</CreateTime>
+    <MsgType><![CDATA[image]]></MsgType>
+    <Image>
+        <MediaId><![CDATA[20ou9TV50PdUJJq3082TrnDHZazec67uj3v7YW8W5-lKCrwYBb4w_XFYTXTfrBNb]]></MediaId>
+    </Image>
+</xml>
+2016-07-10 00:07:34 R 
+<xml>
+	<ToUserName><![CDATA[gh_36dd0f0b3132]]></ToUserName>
+	<FromUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></FromUserName>
+	<CreateTime>1468051658</CreateTime>
+	<MsgType><![CDATA[event]]></MsgType>
+	<Event><![CDATA[location_select]]></Event>
+	<EventKey><![CDATA[SIGNIN]]></EventKey>
+	<SendLocationInfo>
+		<Location_X><![CDATA[22.53996467590332]]></Location_X>
+		<Location_Y><![CDATA[113.93487548828125]]></Location_Y>
+		<Scale><![CDATA[17]]></Scale>
+		<Label><![CDATA[广东省深圳市南山区深南大道10000号]]></Label>
+		<Poiname><![CDATA[腾讯大厦]]></Poiname>
+	</SendLocationInfo>
+</xml>
+2016-07-10 00:07:34 T 
+<xml>
+    <ToUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></ToUserName>
+    <FromUserName><![CDATA[gh_36dd0f0b3132]]></FromUserName>
+    <CreateTime>1468080454</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[发送位置：标签 广东省深圳市南山区深南大道10000号]]></Content>
+</xml>
+2016-07-10 00:07:34 R 
+<xml>
+<ToUserName><![CDATA[gh_36dd0f0b3132]]></ToUserName>
+<FromUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></FromUserName>
+<CreateTime>1468051658</CreateTime>
+<MsgType><![CDATA[location]]></MsgType>
+<Location_X>22.539965</Location_X>
+<Location_Y>113.934875</Location_Y>
+<Scale>17</Scale>
+<Label><![CDATA[广东省深圳市南山区深南大道10000号]]></Label>
+<MsgId>6305233860358995220</MsgId>
+</xml>
+2016-07-10 00:07:34 T 
+<xml>
+    <ToUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></ToUserName>
+    <FromUserName><![CDATA[gh_36dd0f0b3132]]></FromUserName>
+    <CreateTime>1468080454</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[你发送的是位置，经度为：113.934875；纬度为：22.539965；缩放级别为：17；位置为：广东省深圳市南山区深南大道10000号]]></Content>
+</xml>
+2016-07-10 00:08:26 R 
+<xml>
+<ToUserName><![CDATA[gh_36dd0f0b3132]]></ToUserName>
+<FromUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></FromUserName>
+<CreateTime>1468051710</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[MUSIC]]></EventKey>
+</xml>
+2016-07-10 00:08:26 T 
+<xml>
+    <ToUserName><![CDATA[oQW8FuNH_V1zk4x3zTN1IMoAZDW0]]></ToUserName>
+    <FromUserName><![CDATA[gh_36dd0f0b3132]]></FromUserName>
+    <CreateTime>1468080506</CreateTime>
+    <MsgType><![CDATA[music]]></MsgType>
+    <Music>
+        <Title><![CDATA[最炫民族风]]></Title>
+        <Description><![CDATA[歌手：凤凰传奇]]></Description>
+        <MusicUrl><![CDATA[http://mascot-music.stor.sinaapp.com/zxmzf.mp3]]></MusicUrl>
+        <HQMusicUrl><![CDATA[http://mascot-music.stor.sinaapp.com/zxmzf.mp3]]></HQMusicUrl>
+    </Music>
+</xml>

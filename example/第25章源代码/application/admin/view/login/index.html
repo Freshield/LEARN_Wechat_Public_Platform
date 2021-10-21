@@ -1,0 +1,46 @@
+{__NOLAYOUT__}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<title>Login</title>
+        <link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/style.css" /> 
+        <script type="text/javascript" src="__PUBLIC__/admin/js/jquery.min.js"></script> 
+        <script type="text/javascript" src="__PUBLIC__/admin/js/jquery.validate.js"></script> 
+        <script type="text/javascript" src="__PUBLIC__/admin/js/jquery.form.js"></script> 
+        <script type="text/javascript" src="__PUBLIC__/admin/js/my.js"></script> 
+		<script>
+			$(function(){
+				$('img[title="login"]').click(function(){
+					$('form[name="myForm"]').submit();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<form action='doLogin' method='post' name='myForm'>
+			<div class="login_box">
+				<div class="login_title">后台登录</div>
+
+				<div class="login_left">
+					<img src="__PUBLIC__/admin/image/mark.png" border="0" >
+				</div>
+				<div class="login_right">
+					<div class="msg"><div id="result" class="result none"></div></div>
+					<div class="login_form">
+						<ul>
+						<li><label>用户名：</label><input type="text" id="username" class="input-text" name="username" size="16"></li>
+						<li><label>密　码：</label><input type="password"  class="input-text" name="password" size="16"></li>
+						
+                        <li><label>验证码:</label><input name="verifycode" class="input-text"  class="inputbox" id="verifycode"  size="4" value="" maxlength="4" /><img src="{:url('checkVerify')}" onclick="javascript:this.src='{:url('checkVerify')}?tm='+Math.random();" class="checkcode" align="absmiddle"  title="重设" id="verifyImage"/></li>
+						<li><label></label><input type="submit"  class="button" value="登录" /></li> 
+						</ul>
+					</div>
+				</div>
+			</div>
+		</form>
+		<style>
+body {background:#02609b  repeat-x;}
+html{background:#02609b ;}</style>
+	</body>
+</html>

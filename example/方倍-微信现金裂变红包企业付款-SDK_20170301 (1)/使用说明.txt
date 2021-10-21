@@ -1,0 +1,8 @@
+﻿1. 配置APPID、MCHID(微信支付商户号,10位数)、PARTNERKEY(微信支付密钥，商户平台中，账户设置->安全设置->API安全->API密钥：api设置，自己预定准备一个32位字符串)
+2. 程序同级目录新建文件夹cert，从商户平台下载证书后将证书覆盖放入该目录中。
+3. 获得自己在该公众账号下的openid，填入系统，单个调试。
+
+
+其他参数对照 微信商户开发文档 https://pay.weixin.qq.com/wiki/doc/api/index.html
+
+本程序在新浪SAE php5.3环境 及 阿里云centos 7.0 64位 + LNMP 1.1环境下调试通过。

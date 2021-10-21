@@ -1,0 +1,53 @@
+
+	<div id="nav" class="mainnav_title">
+		<ul>
+            <a href="{:url('User/accesstoken')}">Access Token</a>
+			<a href="{:url('User/updateList')}">更新列表</a>
+            <a href="{:url('User/updateInfo')}">更新数据</a>
+		</ul>
+
+	</div>
+	<div class="table-list">
+		<table width="100%" cellspacing="0">
+			<thead>
+				<tr>
+				<th width="20">ID</th>
+				<th width="left">微信OpenID</th>
+				<th align="center">昵称</th>
+				<th >性别</th>
+				<th align="center">地区</th>
+			<!-- 	<th align="center">来源</th>
+				<th align="center">标签</th> -->
+				<th align="center">头像</th>
+				<th align="center">关注时间</th>
+                <!-- <th align="center">积分</th> -->
+                <th align="center">最后互动</th>
+				<th align="center">操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				{volist name="list" id="user" key="k"}
+				<tr>
+				<td align="center">{$user.id}</td>
+				<td align="left">{$user['openid']}</td>
+				<td align="left">{$user['nickname']}</td>
+				<td align="center">{$user['sex']}</td>
+				<td align="left">{$user['country']}{$user['province']}{$user['city']}{$user['district']}</td>
+			<!-- 	<td align="center">{$user['scene']}</td>
+				<td align="center">{$user['tagid']}</td> -->
+				<td align="center"><img src="{$user.headimgurl}" width="25px" height="25px"></td>
+                <td align="center">{if condition="$user['subscribe']==''"}{else/}{$user['subscribe']|date="Y-m-d H:i:s",###}{/if}</td>
+              <!--   <td align="center">{$user['score']}</td> -->
+                <td align="center">{if condition="$user['heartbeat']==''"}{else/}{$user['heartbeat']|date="Y-m-d H:i:s",###}{/if}</td>
+				<td align="center">
+                   <a href="javascript:confirm_delete('{:url('User/delete',array('id'=>$user['id']))}')">删除</a>
+                </td>
+				</tr>
+				{/volist}
+			</tbody>
+		</table>
+		<div class="btn">{$list->render()}</div>
+	</div>
+   
+
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/snower.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/common.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/home-18.css" media="all">
+  <script type="text/javascript" src="js/maivl.js"></script>
+  <script type="text/javascript" src="js/jQuery.js"></script>
+  <script type="text/javascript" src="js/swipe.js"></script>
+  <script type="text/javascript" src="js/zepto.js"></script>
+  <title>星城安监</title>
+
+  <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+
+  <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+  <meta content="no-cache" http-equiv="pragma">
+  <meta content="0" http-equiv="expires">
+  <meta content="telephone=no, address=no" name="format-detection">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="apple-mobile-web-app-capable" content="yes"> <!-- apple devices fullscreen -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+</head>
+<body onselectstart="return true;" ondragstart="return false;" class="">
+    <script type="text/javascript">
+        document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+            WeixinJSBridge.call('hideOptionMenu');
+        });
+        document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+            WeixinJSBridge.call('hideToolbar');
+        });
+    </script>
+
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="all">
+
+  <div class="body">
+    <!--
+    幻灯片管理
+    -->
+    <div style="-webkit-transform:translate3d(0,0,0);">
+      <div id="banner_box" class="box_swipe" style="visibility: visible; ">
+        <ul style="list-style-type: none; list-style-position: initial; list-style-image: initial; width: 1920px; -webkit-transition-duration: 500ms; -webkit-transform: translate3d(0px, 0px, 0px); ">
+          <li style="width: 640px; display: table-cell; vertical-align: top; ">
+            <a onclick="return false;">
+              <img src="img/banner3.jpg" alt="" style="width:100%;">
+            </a>
+          </li>
+          <li style="width: 640px; display: table-cell; vertical-align: top; ">
+            <a onclick="return false;">
+              <img src="img/banner2.jpg" alt="" style="width:100%;">
+            </a>
+          </li>
+          <li style="width: 640px; display: table-cell; vertical-align: top; ">
+            <a onclick="return false;">
+              <img src="img/banner3.jpg" alt="" style="width:100%;">
+            </a>
+          </li>
+        </ul>
+        <ol>
+          <li class="on"></li>
+          <li class=""></li>
+          <li class=""></li>
+        </ol>
+      </div>
+    </div>
+    <script>
+      $(function(){
+        new Swipe(document.getElementById('banner_box'), {
+          speed:500,
+          auto:3000,
+          callback: function(){
+            var lis = $(this.element).next("ol").children();
+            lis.removeClass("on").eq(this.index).addClass("on");
+          }
+        });
+      });
+    </script>
+    <header>
+      <div class="snower">
+        <script type="text/javascript"></script>
+        <script type="text/javascript" src="js/snower.js"></script>
+      </div>
+    </header>
+    <!--
+    用户分类管理
+    -->
+    <section>
+      <ul class="list_ul">
+        <li>
+          <a href="aboutus.html">
+            <figure>
+              <div>
+                <img src="img/11f296bbc0f83cbde8c02784bc3c73fa.gif">
+              </div>
+              <figcaption>关于我们</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="latest.html">
+            <figure>
+              <div>
+                <img src="img/908746f5f33374115b975b7a515781bd.png">
+              </div>
+              <figcaption>最新动态</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="laws.html">
+            <figure>
+              <div>
+                <img src="img/34c38e577f5e7787337fea161a0d761a.jpg">
+              </div>
+              <figcaption>政策法规</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="safe.html">
+            <figure>
+              <div>
+                <img src="img/f47eabd4255e84ab792d5fe5f8e86698.jpg">
+              </div>
+              <figcaption>安全常识</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="http://t.qq.com/doucube">
+            <figure>
+              <div>
+                <img src="img/f93306140828edaa5f825d7cd2f09f0f.jpg">
+              </div>
+              <figcaption>官方微博</figcaption>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="http://wx.wsq.qq.com/182998484">
+            <figure>
+              <div>
+                <img src="img/991df18911fce16072ac94e206b89bea.jpg">
+              </div>
+              <figcaption>社区留言</figcaption>
+            </figure>
+          </a>
+        </li>
+
+      </ul></section></div>
+
+      <footer>
+        <div class="weimob-copyright">
+          <label style="color:#888;">© 方倍工作室</label>
+        </div>
+      </footer>
+      <div mark="stat_code" style="width:0px; height:0px; display:none;">
+      </div>
+    </body>
+</html>
